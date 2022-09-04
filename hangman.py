@@ -5,7 +5,7 @@ import hangman_art
 print(hangman_art.logo)
 
 rndm = random.choice(hangman_word.word_list).lower()
-#print(rndm)
+# print(rndm)
 length = len(rndm)
 list = []
 for l in range(length):
